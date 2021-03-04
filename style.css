@@ -11,8 +11,14 @@ body {
     align-items: center;
   }
 
-  .logo-link {
-    margin-left: 50px;
+img {
+  height: 40px;
+  width: auto;
+  padding: 10px 10px;
+}
+
+.logo-link {
+    margin-left: 30px;
 
   }
 
@@ -80,9 +86,19 @@ body {
     text-decoration: none;
   }
 
+section {
+    height: 300px;
+    margin-top: 40px;
+  }
+.info-container {
+      margin-left: 30px;
+      display: block;
+      max-width: 95%;
+      flex-direction: column;
+      align-items: stretch;
+    
+  }
 
-img {
-    height: 40px;
-    width: auto;
-    padding: 10px 10px;
-}
+  h1 {
+    font-size: 24px;
+  }
