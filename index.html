@@ -10,7 +10,9 @@
         <title>Réservia</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -19,12 +21,14 @@
         
         <!-- header + nav -->
 
-        <div class="header">
-         <a href="" ><img src="../ressource/images/logo/Reservia.svg" class="logo"/></a>  
-            <ul class="navbar">
-                <li><a href="#">Hébergements</a></li>
-                <li><a href="#">Activités</a></li>
-                <li><a href="#">S'inscrire</a></li>
+        <div class="nav-container">
+         <div class="logo-link">
+            <a href="" ><img src="../ressource/images/logo/Reservia.svg" class="logo"/></a>
+         </div class="top-nav">  
+            <ul class="top-nav-list">
+                <li class="top-nav-item"><a href="#" class="top-nav-link-blue">Hébergements</a></li>
+                <li class="top-nav-item"><a href="#" class="top-nav-link">Activités</a></li>
+                <li class="top-nav-item"><a href="#" class="top-nav-link-bold">S'inscrire</a></li>
             </ul>
         </div>
 
@@ -33,7 +37,7 @@
                 <h1>Trouver votre hébergement pour des vacance de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
 
-                <div class="zone_de_recherche">
+                <div class="zone-de-recherche">
                     <div class="search_icon">
                         <img src="../ressource/placeholder.svg" alt="icon google map location">
                     </div>
