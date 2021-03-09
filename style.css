@@ -280,18 +280,46 @@ h1 {
 }
 
 .bg-image {
-  width: auto;
-  height: 200px;
+  width: 310px;
+  height: 180px;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background-image: url("../ressource/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  /*background-image: url("../ressource/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");*/
   background-repeat: no-repeat;
-  background-position:bottom;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
 
+}
+
+.bg-image-resize-1 {
+  width: 310px;
+  height: 180px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url("../ressource/images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 55%;
+  background-size: cover;
+}
+
+.bg-image-resize-2 {
+  width: 310px;
+  height: 180px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url("../ressource/images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .block-bottom {
