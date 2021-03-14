@@ -1,6 +1,9 @@
 body {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(252, 252, 252);
   font-family: 'Raleway', sans-serif;
+
 }
 
 .nav-container {
@@ -106,6 +109,9 @@ h1 {
 p {
   font-size: 16px;
 }
+.btm-p {
+  margin-left: 40px;
+}
 
 .info-search  {
   display: flex;
@@ -185,10 +191,11 @@ p {
     order: 0; 
     border-style: solid;
     border-width: 1px;
-    border-color: hsla(0, 2.29%, 83.63%, 1.00); 
+    border-color: #F2F2F2; 
     border-radius: 30px;
     text-align: left; 
 }
+
 
 
 .icon-box {
@@ -234,11 +241,12 @@ p {
 }
 
 .rooms-main-container {
-  width: 1250px;
+  width: 1240px;
   height: 900px;
   margin-top: 20px;
   margin-left: 40px;
   padding-top: 10px;
+  padding-right: 20px;
   border-radius: 20px;
   background-color: #f2f2f2;
 }
@@ -257,6 +265,7 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: space-around;
 }
 
 .rooms-box {
@@ -277,6 +286,7 @@ h1 {
   border-bottom-right-radius: 20px;
   background-color: hsla(0, 0.00%, 100.00%, 1.00);
   box-shadow: 2px 2px 9px -4px;
+  
   
 }
 
@@ -346,9 +356,11 @@ h1 {
 }
 
 .rooms-aside-container {
-  width: 500px;
+  width: 510px;
   height: 910px;
   margin-top: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -444,7 +456,7 @@ a {
 
 .bottom-container {
 
-  height: 900px;
+  height: 1300px;
   margin-top: 100px;
   margin-left: 10px;
   background-color: hsla(0, 0.00%, 100.00%, 1.00);
@@ -489,6 +501,13 @@ a {
 }
 
 .small-cards-container {
+  display: flex;
+  height: 635px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.small-cards-container-2 {
   display: flex;
   height: 635px;
   flex-direction: column;
@@ -605,3 +624,69 @@ background-position: 55% 50%;
   background-size: cover;
   background-position: 55% 05%;
 }
+
+
+.footer-container {
+  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  background-color: #F2F2F2;
+}
+.footer-info-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 40px;
+}
+
+.footer-info {
+  width: 40%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+/*
+@media  screen and (max-width: 1680px){
+  .rooms-main-container {
+    width: 1000px;
+    margin-right: 20px;
+    }
+  .bottom-container {
+    margin-top: 100px;
+  }
+  .rooms-wrapper {
+    overflow: hidden;
+  }
+  .rooms-box {
+    margin-bottom: 50px;
+  }
+  
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    margin: 50px 50px;
+  }
+  
+  .btm-cards-container {
+    justify-content: space-around;
+  }
+  .small-cards-container-2 {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  footer {
+    margin-top: 0px;
+  }
+  
+    h1 {
+      text-align: start
+    }
+  }*/
+
