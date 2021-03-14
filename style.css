@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   background-color: rgb(252, 252, 252);
   font-family: 'Raleway', sans-serif;
+
 }
 
 .nav-container {
@@ -190,10 +191,11 @@ p {
     order: 0; 
     border-style: solid;
     border-width: 1px;
-    border-color: hsla(0, 2.29%, 83.63%, 1.00); 
+    border-color: #F2F2F2; 
     border-radius: 30px;
     text-align: left; 
 }
+
 
 
 .icon-box {
@@ -454,7 +456,7 @@ a {
 
 .bottom-container {
 
-  height: 700px;
+  height: 1300px;
   margin-top: 100px;
   margin-left: 10px;
   background-color: hsla(0, 0.00%, 100.00%, 1.00);
@@ -647,44 +649,44 @@ background-position: 55% 50%;
   justify-content: center;
 
 }
-
+/*
 @media  screen and (max-width: 1680px){
-.rooms-main-container {
-  width: 1000px;
-  margin-right: 20px;
+  .rooms-main-container {
+    width: 1000px;
+    margin-right: 20px;
+    }
+  .bottom-container {
+    margin-top: 100px;
   }
-.bottom-container {
-  margin-top: 100px;
-}
-.rooms-wrapper {
-  overflow: hidden;
-}
-.rooms-box {
-  margin-bottom: 50px;
-}
-
-.bottom-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 1000px;
-  margin: 50px 50px;
-}
-
-.btm-cards-container {
-  justify-content: space-around;
-}
-.small-cards-container-2 {
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-around;
-}
-footer {
-  margin-top: 0px;
-}
-
-  h1 {
-    text-align: center
+  .rooms-wrapper {
+    overflow: hidden;
   }
-}
+  .rooms-box {
+    margin-bottom: 50px;
+  }
+  
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    margin: 50px 50px;
+  }
+  
+  .btm-cards-container {
+    justify-content: space-around;
+  }
+  .small-cards-container-2 {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  footer {
+    margin-top: 0px;
+  }
+  
+    h1 {
+      text-align: start
+    }
+  }*/
 
