@@ -16,6 +16,7 @@
     padding-right: 20px;
     border-radius: 20px;
     background-color: #f2f2f2;
+
   }
   
   .rooms-wrapper {
@@ -25,6 +26,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-around;
+    overflow: auto;
   }
   
   .rooms-box {
@@ -113,4 +115,20 @@
     font-size: 18px;
     font-weight: 700;
   }
+
+  @media  screen and (max-width: 1640px){
+    .rooms-main-container {
+      width: 1000px;
+      margin-right: 20px;
+      }
+    .bottom-container {
+      margin-top: 100px;
+    }
+    .rooms-wrapper {
+      overflow: hidden;
+    }
+    .rooms-box {
+      margin-bottom: 50px;
+    }
+    
   

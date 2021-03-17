@@ -6,44 +6,10 @@ body {
   margin: 0px;
 }
 
+h2 {
+  margin-left: 20px;
+}
 
-@media  screen and (max-width: 1680px){
-  .rooms-main-container {
-    width: 1000px;
-    margin-right: 20px;
-    }
-  .bottom-container {
-    margin-top: 100px;
-  }
-  .rooms-wrapper {
-    overflow: hidden;
-  }
-  .rooms-box {
-    margin-bottom: 50px;
-  }
-  
-  .bottom-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 1000px;
-    margin: 50px 50px;
-  }
-  
-  .btm-cards-container {
-    justify-content: space-around;
-  }
-  .small-cards-container-2 {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  footer {
-    margin-top: 0px;
-  }
-  
-    h1 {
-      text-align: start
-    }
-  }
 
+
+  
