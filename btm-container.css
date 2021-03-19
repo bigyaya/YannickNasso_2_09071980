@@ -13,7 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;
+    width: 100vw;
     height: auto;
     flex-direction: row;
   
@@ -170,7 +170,7 @@
   }
   
 
-  @media screen and (max-width: 1640px) {
+ /* @media screen and (max-width: 1640px) {
       
 
     h2 {
@@ -312,4 +312,4 @@
         margin-right: 80px;
     }
     
-}
+}*/

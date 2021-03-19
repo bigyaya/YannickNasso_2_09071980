@@ -1,5 +1,6 @@
 
 .rooms-aside-container {
+  position: relative;
     width: 510px;
     height: 910px;
     margin-top: 20px;
@@ -20,8 +21,14 @@
     align-items: flex-start;
     align-content: space-around;
   }
-  
-  .aside-box {
+
+ .fa-chart-line:before {
+    position: absolute;
+    top: 19px;
+    right: 36px;
+    font-size: xx-large;
+}
+.aside-box {
     display: flex;
     width: 440px;
     height: 220px;

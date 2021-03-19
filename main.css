@@ -2,7 +2,7 @@
 .main-container {
     display: flex;
     height: 900px;
-    margin-top: 40px;
+    margin-top: 80px;
     justify-content: space-between;
   
   }
@@ -116,7 +116,7 @@
     font-weight: 700;
   }
 
-  @media  screen and (max-width: 1640px){
+ /* @media  screen and (max-width: 1640px){
     .rooms-main-container {
       width: 1000px;
       margin-right: 20px;
@@ -131,4 +131,4 @@
       margin-bottom: 50px;
     }
     
-  
+  }*/
