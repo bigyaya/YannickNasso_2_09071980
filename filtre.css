@@ -149,6 +149,13 @@ section {
         border-radius: 30px;
         text-align: left; 
     }
+
+    .filtre-box:hover {
+    transform: translateY(-5px);
+    /*transform: scale(1.1);*/
+    transform-origin: 1 5px; 
+    transition:  0.5s;
+    }
     
     
     

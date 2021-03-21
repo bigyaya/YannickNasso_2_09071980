@@ -45,6 +45,12 @@
     background-color: hsla(0, 0.00%, 100.00%, 1.00);
     box-shadow: 2px 2px 9px -4px;
   }
+
+  .aside-box:hover {
+    transform: scale(1.05);
+    transform-origin: 1 5px; 
+    transition:  0.5s;
+  }
   
   
   .bg-image-aside-1 {
