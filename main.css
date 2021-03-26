@@ -63,10 +63,10 @@
     margin-right: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    /*background-image: url("../ressource/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");*/
+    /*background-image: url("ressource/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");*/
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size:cover;
   
   }
 
