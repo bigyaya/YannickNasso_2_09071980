@@ -34,7 +34,7 @@
 
   .btm-box-big:hover {
     transform: scale(1.05);
-    transform-origin: 1 5px; 
+
     transition:  0.5s;  
   }
 
@@ -73,7 +73,7 @@
 
   .btm-box-small:hover {
     transform: scale(1.05);
-    transform-origin: 1 5px; 
+  
     transition:  0.5s;
   }
   
@@ -101,7 +101,7 @@
 
   .btm-box-small-2:hover {
     transform: scale(1.05);
-    transform-origin: 1 5px; 
+   
     transition:  0.5s;
   }
   
@@ -130,7 +130,7 @@
 
   .btm-box-big-2:hover {
     transform: scale(1.05);
-    transform-origin: 1 5px; 
+ 
     transition:  0.5s;
   }
 
@@ -165,7 +165,7 @@
 
   .btm-box-small-3:hover {
     transform: scale(1.05);
-    transform-origin: 1 5px; 
+   
     transition:  0.5s;
   }
   
@@ -193,7 +193,7 @@
 
   .btm-box-small-4:hover {
     transform: scale(1.05);
-    transform-origin: 1 5px; 
+   
     transition:  0.5s;
   }
   
