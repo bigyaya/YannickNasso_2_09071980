@@ -1,5 +1,5 @@
 
-   /* @media screen and (max-width: 1024px) {
+    /*@media screen and (max-width: 1024px) {
 
       body {
         display: flex;
@@ -461,9 +461,17 @@ background-position: 55% 05%;
 
 
 /*query 768*/
+@media screen and (max-width: 1250px) and (min-width: 1024px) {
+  .info-box-bottom {
+    margin-top: 100px;
+  }
 
+  .main-container {
+    margin-top: 10px;
+  }
+}
 
-  @media screen and (max-width: 768px)  {
+  @media screen and (min-width: 765px) and (max-width: 1024px)   {
     body {
       display: flex;
       flex-direction: column;
@@ -471,18 +479,18 @@ background-position: 55% 05%;
       font-family: 'Raleway', sans-serif;
       margin: 0px;
       box-sizing: border-box;
-      width: 160%;
-      height: 2630px;
+      width: 100%;
+      height: auto;
   }
 
   .top-nav-link-blue {
-    font-size: 20px;
+    font-size: 1rem;
   }
   .top-nav-link-bold {
-    font-size: 20px;
+    font-size: 1rem;
   }
   .top-nav-link {
-    font-size: 20px;
+    font-size: 1rem;
   }
 
 
@@ -508,9 +516,31 @@ background-position: 55% 05%;
 .bold {
   font-size: 18px;
 }
+.text-bold {
+  font-size: 0.9rem;
+  white-space: normal;
+}
+
+.min-btn {
+  display: none;
+}
+
+div.block-right {
+  justify-content: space-around;
+  margin: 0 10px;
+}
+
+h2 {
+  font-size: 1rem;
+}
 
 p {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+  padding-right: 25px;
+}
+
+.fa-chart-line:before {
+  font-size: 1rem;
 }
 
 .rooms-main-container {
@@ -526,7 +556,7 @@ p {
 
 .rooms-box {
   display: block;
-  width: 40%;
+  width: 85%;
   height: 320px;
   padding-top: 5px;
   padding-bottom: 15px;
@@ -546,9 +576,9 @@ p {
 
 .bg-image {
   width: 87%;
-  height: 150px;
+  height: 165px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-right: 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -564,7 +594,7 @@ p {
 
 .bg-image-resize-1 {
   width: 87%;
-  height: 150px;
+  height: 165px;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 10px;
@@ -578,7 +608,7 @@ p {
 
 .bg-image-resize-2 {
   width: 87%;
-  height: 150px;
+  height: 165px;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 10px;
@@ -591,8 +621,16 @@ p {
 }
 
 .aside-star-container {
-  margin-top: 35px;
+  margin-top: 5px;
 }
+
+.stars-container {
+  padding-top: 40px;
+}
+.stars-container-r {
+  padding-top: 40px;
+}
+
 .rooms-wrapper {
   display: flex;
   height: 750px;
@@ -611,7 +649,7 @@ p {
 .rooms-aside-container {
   position: relative;
   left: 25px;
-  width: 30%;
+  width: 50%;
   height: 910px;
   margin-top: 20px;
   padding-right: 30px;
@@ -623,6 +661,7 @@ p {
   background-color: #f2f2f2;
 }
 
+
 .aside-wrapper {
   display: flex;
   height: 950px;
@@ -631,6 +670,7 @@ p {
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: space-around;
+  padding-left: 10px;
 }
 .aside-box {
   display: flex;
@@ -644,7 +684,12 @@ p {
   border-bottom-right-radius: 20px;
   background-color: hsla(0, 0.00%, 100.00%, 1.00);
   box-shadow: 2px 2px 9px -4px;
-  margin-left: 15px;
+  margin: 18px 0;
+}
+
+.block-right {
+  margin:  0 0;
+  width: 50%;
 }
 
 
@@ -654,7 +699,7 @@ p {
   width: 100%;
   flex-direction: column;
   height: auto;
-  margin: 100px 0px 0px 0px;
+  margin: 35px 0px 0px 0px;
   background-color: hsla(0, 0.00%, 100.00%, 1.00);
 
 }
@@ -781,7 +826,7 @@ p {
   width: 60%;
     height: auto;
     margin-right: 0px;
-    margin-left: 75px;
+    margin-left: 30px;
     border-radius: 20px;
     background-color: hsla(0, 0.00%, 100.00%, 1.00);
     box-shadow: 0 3px 9px -4px;
