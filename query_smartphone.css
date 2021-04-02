@@ -147,6 +147,14 @@
         min-width: 40px;
     }
 
+    .filtre {
+        margin-right: 15px;
+    }
+
+    .bold {
+        font-size: 18px;
+    }
+
     .button-style {
         display: none;
     }
@@ -175,7 +183,6 @@
         width: 100%;
         height: auto;
     }
-
 
 
     .rooms-main-container {
@@ -308,7 +315,7 @@
     }
 
     .footer-container {
-        height: auto;
+        height: 545px;
     }
     .footer-info-container{
         flex-direction: column;
@@ -318,7 +325,6 @@
     .footer-info {
         width: 100%;
         padding-bottom: 45px;
-        line-height: 0;
     }
 }
 
