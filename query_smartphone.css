@@ -1,4 +1,4 @@
-@media screen and (min-width: 630px) and (max-width: 765px) {
+@media screen and (min-width: 635px) and (max-width: 765px) {
 
     body {
         display: flex;
@@ -17,21 +17,28 @@
 
     .main-container {
         height: auto;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .rooms-main-container {
         width: 95%;
+        
     }
 
     .rooms-wrapper {
         height: auto;
-        overflow: hidden;
+        display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /* width: 100vw; */
+    width: 94%;
+    height: auto;
+    flex-direction: column;overflow: hidden;
     }
 
     .rooms-box {
-        width: 95%;
-        height: 415px;
+        width: 90%;
+    height: 400px;
     }
 
     .bg-image {
@@ -39,13 +46,44 @@
         height: 265px;
     }
 
+    
+
+    .bg-image1 {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-image: url(../ressource/images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+
+    .text-bold {
+        font-size: 1.1rem
+    }
+
+    .bg-image2 {
+        height: 300px;
+    }
+    .bg-image3 {
+        height: 300px;
+    }
+    .bg-image5 {
+        height: 300px;
+    }
+
+    .stars-container {
+        padding-top: 20px;
+    }
+
     .bg-image-resize-1 {
-        width: 90%;
-        height: 265px;
+        width: 100%;
+        height: 300px;
     }
     .bg-image-resize-2 {
-        width: 90%;
-        height: 265px;
+        width: 100%;
+        height: 300px;
     }
 
     .rooms-aside-container {
@@ -54,11 +92,18 @@
     }
 
     .aside-box {
-        width: 630px;
+        width: 620px;
         height: 255px;
+        margin: 0 0 60px 0;
     }
 
     .aside-star-container {
+        margin-top: 125px;
+    }
+    .aside-star-container-2 {
+        margin-top: 125px;
+    }
+    .aside-star-container-3 {
         margin-top: 125px;
     }
 
@@ -86,6 +131,7 @@
     .logo-link {
         position: relative;
         bottom: 35px;
+        margin-left: 20px;
     }
 
     .top-nav-item3 {
@@ -128,6 +174,7 @@
         display: flex;
         height: 677px;
         width: 100%;
+        margin-left: 20px;
         flex-direction: column;
     }
     .info-container {
@@ -150,7 +197,11 @@
 
     .query-button {
         display: block;
-        width: 20%;
+        border-bottom-right-radius: 20%;
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        border-top-left-radius: 20%;
+        width: 40%;
         height: 60px;
         background-color: #0065FC;
        /* background-image: url(../ressource/search-solid.svg);
@@ -162,7 +213,31 @@
         
     }
 
+    .fa-search:before {
+        font-size: 25px;
+    }
+
+    .fa-map-marker-alt:before {
+        content: "\f3c5";
+        font-size: 1.2rem;
+    }
+
+    .mobile {
+        margin-top: 30px;
+        display: block;
+        font-weight: 700;
+      }
+
+    .filtre-container .filtre {
+        display: none;
+    }
+
+     /*.filtre-box {
+         display: inline-block;
+     } */
+
     .filtre-container {
+        margin-top: 0;
         height: auto;
     }
 
@@ -175,140 +250,180 @@
 
 
     .rooms-main-container {
+        margin: 0;
         width: 95%;
+        background-color: white;
     }
 
     .rooms-wrapper {
         height: auto;
+        padding-left: 20px;
+        
+        overflow: initial;
     }
 
     .rooms-box {
-        width: 85%;
-        height: 350px;
+        width: 95%;
+        height: 240px;
+        margin: 20px 0;
     }
 
-    .bg-image {
+    /*.bg-image {
         width: 85%;
         height: 160px;
-    }
+    }*/
 
     .bg-image-resize-1 {
-        width: 85%;
+        width: 100%;
         height: 160px;
     }
     .bg-image-resize-2 {
-        width: 85%;
+        width: 100%;
         height: 160px;
     }
 
     .rooms-aside-container {
         width: 94%;
-        margin-left: 20px;
+        height: 745px;
+        border-radius: 0;
     }
 
     .aside-box {
-        width: 325px;
-        height: 255px;
+        width: 340px;
+        height: 175px;
         right: 15px;
-        position: relative;
-        margin: 25px 0;
+        margin: 15px 0;
+    }
+
+    .aside-wrapper {
+        height: 660px;
     }
     .stars-container{
-        padding-top: 40px;
+        padding-top: 15px;
     }
     .stars-container-r{
-        padding-top: 40px;
+        padding-top: 5px;
     }
 
     .aside-star-container {
-        margin-top: 60px;
+        margin-top: 20px;
     }
+
+    .aside-star-container-2 {
+        margin-top: 40px;
+    }
+
+    .aside-star-container-3 {
+        margin-top: 40px;
+    }
+
+    .bottom-container {
+        margin: 50px 0px 0px 0px;
+    }
+   /*.bottom-container h2 {
+        padding-left: 30px;
+    }*/
+
+   
 
     .btm-cards-container {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-around;
         /* width: 100vw; */
-        width: 100%;
+        width: 94%;
         height: auto;
         flex-direction: column;
     }
 
     .btm-box-big {
         position: relative;
-        left: 25px;
-        width: 85%;
-        height: 350px;
+        width: 95%;
+        height: 220px;
     }
     .btm-image-big {
         width: 100%;
-        height: 250px;
+        height: 120px;
+        background-position: 50% 10%;
     }
     .small-cards-container {
-        width: 100%;
+        width: 95%;
         height: auto;
         position: relative;
-        left: 40px;
     }
     .btm-box-small{
-        width: 85%;
-        height: 350px;
+        width: 100%;
+        height: 220px;
     }
     .btm-image-small{
         width: 100%;
-        height: 250px;
+        height: 120px;
+        background-position: 50% 40%;
     }
 
     .btm-box-small-2{
-        width: 85%;
-        height: 350px;
+        width: 100%;
+        height: 220px;
     }
     .btm-image-small-2{
         width: 100%;
-        height: 250px;
+        height: 120px;
+        background-position: 50% 10%;
     }
 
     .btm-box-big-2 {
         position: relative;
-        left: 35px;
-        width: 85%;
-        height: 350px;
+        width: 95%;
+        height: 220px;
     }
     .btm-image-big-2 {
         width: 100%;
-        height: 250px;
+        height: 120px;
+        background-position: 50% 10%;
     }
 
     .small-cards-container-2 {
-        width: 100%;
+        width: 95%;
         height: auto;
         position: relative;
-        left: 40px;
     }
     .btm-box-small-3{
-        width: 85%;
-        height: 350px;
+        width: 100%;
+        height: 220px;
     }
     .btm-image-small-3{
         width: 100%;
-        height: 250px;
+        height: 120px;
+        background-position: 50% 10%;
     }
 
     .btm-box-small-4{
-        width: 85%;
-        height: 350px;
+        width: 100%;
+        height: 220px;
     }
     .btm-image-small-4{
         width: 100%;
-        height: 250px;
+        height: 120px;
+        background-position: 50% 16%;
     }
 
     .footer-container {
-        height: 590px;
+        height: 470px;
     }
     .footer-info-container{
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .footer-info {
+        width: 90%;
+    }
+
+    .footer-info p {
+        line-height: 0.3;
+    }
+    .footer-info p:last-child {
+        margin-bottom: 40px;
     }
 }
 
