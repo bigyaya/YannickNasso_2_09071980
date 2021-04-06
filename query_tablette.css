@@ -471,7 +471,7 @@ background-position: 55% 05%;
   }
 }
 
-  @media screen and (min-width: 765px) and (max-width: 1024px)   {
+  @media screen and (min-width: 765px) and (max-width: 1024px)  {
     body {
       display: flex;
       flex-direction: column;
@@ -517,7 +517,7 @@ background-position: 55% 05%;
   font-size: 18px;
 }
 .text-bold {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   white-space: normal;
 }
 
@@ -535,7 +535,7 @@ h2 {
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-right: 25px;
 }
 
@@ -548,6 +548,7 @@ p {
   height: 900px;
   margin-top: 20px;
   margin-left: 40px;
+  margin-right: 0;
   padding-top: 10px;
   padding-right: 20px;
   border-radius: 20px;
@@ -558,11 +559,10 @@ p {
   display: block;
   width: 85%;
   height: 320px;
-  padding-top: 5px;
   padding-bottom: 15px;
   margin-top: 15px;
   margin-right: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 90px;
   margin-left: 30px;
   flex-direction: column;
   align-items: center;
@@ -592,11 +592,22 @@ p {
   margin-left: 20px;
 }
 
+.bg-image1 {
+  height: 195px;
+}
+.bg-image2 {
+  height: 195px;
+}
+.bg-image3 {
+  height: 195px;
+}
+.bg-image5 {
+  height: 195px;
+}
+
 .bg-image-resize-1 {
-  width: 87%;
-  height: 165px;
-  margin-top: 20px;
-  margin-left: 20px;
+  width: 100%;
+  height: 195px;
   margin-right: 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -607,10 +618,8 @@ p {
 }
 
 .bg-image-resize-2 {
-  width: 87%;
-  height: 165px;
-  margin-top: 20px;
-  margin-left: 20px;
+  width: 100%;
+  height: 195px;
   margin-right: 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -693,6 +702,24 @@ p {
 }
 
 
+.aside-star-container {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.aside-star-container-2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.aside-star-container-3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.block-bottom .name-card {
+  margin-top: 5px;
+}
+
     
 .bottom-container {
   display: flex;
@@ -734,7 +761,7 @@ p {
 
 .btm-image-big {
   width: 100%;
-  height: 345px;
+  height: 370px;
   padding-bottom: 40px;
   border-radius: 20px 20px 0px 0px;
   background-image: url("../ressource/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
@@ -756,10 +783,10 @@ p {
 .btm-box-small {
   width: 100%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-left: 30px;
   margin-right: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   border-radius: 20px;
   background-color: hsla(0, 0.00%, 100.00%, 1.00);
   box-shadow: 0 3px 9px -4px;
@@ -799,7 +826,7 @@ p {
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   border-radius: 20px;
   background-color: hsla(0, 0.00%, 100.00%, 1.00);
   box-shadow: 0 3px 9px -4px;
@@ -840,7 +867,7 @@ p {
 
 .btm-image-big-2 {
 width: 100%;
-height: 345px;
+height: 355px;
 padding-bottom: 40px;
 border-radius: 20px 20px 0px 0px;
 background-image: url("../ressource/images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
@@ -861,10 +888,10 @@ background-position: 55% 50%;
 .btm-box-small-3 {
   width: 100%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-left: 30px;
   margin-right: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   border-radius: 20px;
   background-color: hsla(0, 0.00%, 100.00%, 1.00);
   box-shadow: 0 3px 9px -4px;
@@ -892,7 +919,7 @@ background-position: 55% 50%;
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   border-radius: 20px;
   background-color: hsla(0, 0.00%, 100.00%, 1.00);
   box-shadow: 0 3px 9px -4px;
@@ -914,4 +941,78 @@ background-position: 55% 50%;
   background-position: 55% 05%;
 }
 
+.footer-container {
+  margin-top: 50px;
+  width: 100%;
+  height: 440px;
+  background-color: #F2F2F2;
+}
+
+}
+
+
+
+@media screen and (max-width: 840px) and (min-width: 768px){
+
+  .bg-image1 {
+    height: 135px;
+  }
+
+  .bg-image2 {
+    height: 135px;
+  }
+
+  .bg-image3 {
+    height: 135px;
+  }
+
+  .bg-image5 {
+    height: 135px;
+  }
+
+  .bg-image-resize-1 {
+    height: 135px;
+    padding-top: 5px;
+  }
+  .bg-image-resize-2 {
+    height: 135px;
+    padding-top: 5px;
+  }
+
+  .stars-container-r {
+    padding-top: 25px;
+  }
+
+  .aside-star-container-2 {
+    margin-top: 37px;
+    margin-bottom: 15px;
+}
+.aside-star-container-3 {
+  margin-top: 37px;
+  margin-bottom: 15px;
+}
+.block-bottom .sc-query {
+  padding-top: 35px;
+}
+
+  .rooms-box {
+    height: 245px;
+  }
+
+  .text-bold {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .block-bottom {
+    
+    padding-top: 5px;
+  }
+
+  .stars-container {
+    padding-top: 20px;
+}
 }

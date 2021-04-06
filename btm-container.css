@@ -30,7 +30,7 @@
       margin-bottom: 15px;
       border-radius: 20px;
       background-color: hsla(0, 0.00%, 100.00%, 1.00);
-      box-shadow: 0 3px 9px -4px;
+      box-shadow: 2px 2px 18px -10px;
   
   }
 
@@ -56,7 +56,7 @@
     display: flex;
     width: 25%;
     height: 635px;
-    margin-right: 20px;
+    margin: 0 20px;
     flex-direction: column;
     justify-content: space-between;
 
@@ -71,7 +71,7 @@
     margin-bottom: 15px;
     border-radius: 20px;
     background-color: hsla(0, 0.00%, 100.00%, 1.00);
-    box-shadow: 0 3px 9px -4px;
+    box-shadow: 2px 2px 18px -10px;
   }
 
   .btm-box-small:hover {
@@ -98,7 +98,7 @@
     margin-bottom: 15px;
     border-radius: 20px;
     background-color: hsla(0, 0.00%, 100.00%, 1.00);
-    box-shadow: 0 3px 9px -4px;
+    box-shadow: 2px 2px 18px -10px;
   }
 
   .btm-box-small-2:hover {
@@ -123,15 +123,16 @@
     height: 600px;
     margin-top: 20px;
     margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 15px;
     border-radius: 20px;
     background-color: hsla(0, 0.00%, 100.00%, 1.00);
-    box-shadow: 0 3px 9px -4px;
+    box-shadow: 2px 2px 18px -10px;
   }
 
   .btm-box-big-2:hover {
     transform: scale(1.05);
- 
+    margin-left: 20px;
     transition:  0.5s;
   }
 
@@ -149,6 +150,7 @@
     display: flex;
     width: 25%;
     height: 635px;
+    margin: 0 20px;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -161,7 +163,7 @@
     margin-bottom: 15px;
     border-radius: 20px;
     background-color: hsla(0, 0.00%, 100.00%, 1.00);
-    box-shadow: 0 3px 9px -4px;
+    box-shadow: 2px 2px 18px -10px;
   }
 
   .btm-box-small-3:hover {
@@ -188,7 +190,7 @@
     margin-bottom: 15px;
     border-radius: 20px;
     background-color: hsla(0, 0.00%, 100.00%, 1.00);
-    box-shadow: 0 3px 9px -4px;
+    box-shadow: 2px 2px 18px -10px;
   }
 
   .btm-box-small-4:hover {
@@ -205,6 +207,10 @@
     background-image: url("../ressource/images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: 55% 05%;
+  }
+
+  .block-bottom  .name-card {
+    margin-top: 20px;
   }
   
 
