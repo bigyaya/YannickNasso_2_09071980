@@ -419,7 +419,7 @@
     }
 
     .footer-container {
-        height: 470px;
+        height: 530px;
     }
     .footer-info-container{
         flex-direction: column;
@@ -433,13 +433,14 @@
 
     .footer-info {
         width: 90%;
+        padding-bottom: 0;
     }
 
     .footer-info p {
         line-height: 0.3;
     }
     .footer-info p:last-child {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 }
 
