@@ -187,19 +187,27 @@
     }
     .info-search{
         width: 90%;
+        border-width: 1px;
+        border-radius: 17px;
     }
     
     .icon-search {
         width: 125px;
         min-width: 40px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
     }
 
     .filtre {
         margin-right: 15px;
     }
 
+    .filtre-box {
+        border-width: 1px;
+    }
+
     .bold {
-        font-size: 18px;
+        font-size: 1rem;
     }
 
     .button-style {
