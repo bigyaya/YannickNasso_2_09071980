@@ -198,12 +198,47 @@
         border-bottom-left-radius: 15px;
     }
 
+    .info-box-bottom {
+        margin-left: 0;
+    }
+
     .filtre {
         margin-right: 15px;
+    }
+    .filtre-container {
+        width: 100%;
     }
 
     .filtre-box {
         border-width: 1px;
+    }
+
+    .icon-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .fas.fa-money-bill-wave-alt::before {
+        font-size: 20px;
+        vertical-align: middle;
+        height: auto;
+    }
+
+    .fas.fa-child::before {
+        font-size: 25px;
+        height: auto;
+        vertical-align: middle;
+    }
+
+    .fas.fa-heart::before {
+        font-size: 25px;
+        height: auto;
+        vertical-align: middle;
+    }
+
+    .fas.fa-dog::before {
+        font-size: 28px;
+        vertical-align: middle;
     }
 
     .bold {
@@ -265,6 +300,7 @@
         flex-direction: column-reverse;
         width: 100%;
         height: auto;
+        margin-top: 20px;
     }
 
 
