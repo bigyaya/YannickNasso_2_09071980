@@ -41,6 +41,10 @@
     height: 400px;
     }
 
+    .stars-container-r {
+        padding-top: 20px;
+    }
+
     .bg-image {
         width: 90%;
         height: 265px;
@@ -161,12 +165,13 @@
         color: #0065FC;
         border-top: transparent;
         border-bottom: solid 2.5px ;
-        
+        width: 175px;
       }
     .top-nav-item2:hover {
         color: #0065FC;
         border-top: transparent;
         border-bottom: solid 2.5px ;
+        right: 20px;
         
     }
     .top-nav-item3:hover {
