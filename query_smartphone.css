@@ -1,8 +1,20 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media screen and (min-width: 635px) and (max-width: 765px) {
 
     body {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         width: 100%;
         height: auto;
     }
@@ -17,7 +29,10 @@
 
     .main-container {
         height: auto;
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
 
     .rooms-main-container {
@@ -27,13 +42,20 @@
 
     .rooms-wrapper {
         height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     /* width: 100vw; */
     width: 94%;
     height: auto;
-    flex-direction: column;overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;overflow: hidden;
     }
 
     .rooms-box {
@@ -178,17 +200,27 @@
         border-top: transparent;
     }
     .info-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: 677px;
         width: 100%;
         margin-left: 20px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .info-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: auto;
         width: 100%;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .info-search{
         width: 90%;
@@ -302,7 +334,10 @@
     }
 
     .main-container{
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
         width: 100%;
         height: auto;
         margin-top: 20px;
@@ -387,13 +422,20 @@
    
 
     .btm-cards-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         /* width: 100vw; */
         width: 94%;
         height: auto;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .btm-box-big {
@@ -471,8 +513,13 @@
         height: 530px;
     }
     .footer-info-container{
-        flex-direction: column;
-        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         padding-top: 40px;
     }
     .footer-info {

@@ -1,200 +1,300 @@
-section {
-    height: auto;
-
-    }
-    .info-container {
-      margin-left: 50px;
-      display: block;
-      max-width: 95%;
-      flex-direction: column;
-      align-items: stretch;
-    
-    }
 /*
-    .button {
-      display: inline-block;
-      text-align: center;
-      background: var(--color);
-      color: var(--bg);
-      font-weight: bold;
-      padding: 1.18em 1.32em 1.03em;
-      line-height: 1;
-      border-radius: 1em;
-      position: relative;
-      min-width: 8.23em;
-      text-decoration: none;
-      font-family: var(--font);
-      font-size: 1.25rem;
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+section {
+  height: auto;
+
+  }
+  .info-container {
+    margin-left: 50px;
+    display: block;
+    max-width: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  
+  }
+/*
+  .button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+}
+  */
+  h1 {
+    font-size: 24px;
   }
   
-  .button:before,
-  .button:after {
-      width: 4.4em;
-      height: 2.95em;
-      position: absolute;
-      content: "";
-      display: inline-block;
-      background: var(--color);
-      border-radius: 50%;
-      transition: transform 1s ease;
-      transform: scale(0);
-      z-index: -1;
+  p {
+    font-size: 16px;
+  }
+  .btm-p {
+    margin-left: 40px;
   }
   
-  .button:before {
-      top: -25%;
-      left: 20%;
+  .info-search  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 37%;
+    margin-top: 30px;
+    margin-left: 0px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color:  #d6d4d4;
   }
   
-  .button:after {
-      bottom: -25%;
-      right: 20%;
+  .icon-search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75px;
+    height: 60px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #f2f2f2;
+  
   }
   
-  .button:hover:before,
-  .button:hover:after {
-      transform: none;
-  }
-    */
-    h1 {
-      font-size: 24px;
-    }
+  .search-box {
+    width: 550px;
+    height: 60px;
+    border-color: transparent;
     
-    p {
-      font-size: 16px;
-    }
-    .btm-p {
-      margin-left: 40px;
-    }
-    
-    .info-search  {
+  }
+  ::-webkit-input-placeholder {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+  
+  }
+  ::-moz-placeholder {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+  
+  }
+  :-ms-input-placeholder {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+  
+  }
+  ::-ms-input-placeholder {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+  
+  }
+  ::placeholder {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+  
+  }
+  
+  .button-style {
+    width: 150px;
+    height: 60px;
+    background-color:#0065FC;
+    color: white;
+    border-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .filtre-container {
+   
+      display: -webkit-box;
+   
+      display: -ms-flexbox;
+   
       display: flex;
-      width: 37%;
-      margin-top: 30px;
-      margin-left: 0px;
-      justify-content: space-between;
-      align-items: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      width: 75%;
+      height: 100px;
+      margin-top: 31px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+  }
+  
+  .filtre-box {
+  
+      display: -webkit-box;
+  
+      display: -ms-flexbox;
+  
+      display: flex;
+      margin-top: 15px;
+      margin-right: 0px;
+      margin-bottom: 15px;
+      padding-right: 20px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+      -webkit-box-ordinal-group: 1;
+          -ms-flex-order: 0;
+              order: 0; 
       border-style: solid;
-      border-width: 1px;
-      border-radius: 10px;
-      border-color:  #d6d4d4;
-    }
-    
-    .icon-search {
-      display: flex;
-      width: 75px;
-      height: 60px;
-      justify-content: center;
-      align-items: center;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      background-color: #f2f2f2;
-    
-    }
-    
-    .search-box {
-      width: 550px;
-      height: 60px;
-      border-color: transparent;
-      
-    }
-    ::placeholder {
-      font-family: 'Raleway', sans-serif;
-      color: black;
-      font-size: 18px;
-      font-weight: bold;
-      padding-left: 30px;
-    
-    }
-    
-    .button-style {
-      width: 150px;
-      height: 60px;
-      background-color:#0065FC;
-      color: white;
-      border-color: transparent;
-      font-family: 'Raleway', sans-serif;
-      font-size: 18px;
-      border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
-    }
-    
-    .filtre-container {
-     
-        display: flex;
-        flex-wrap: wrap;
-        width: 75%;
-        height: 100px;
-        margin-top: 31px;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .filtre-box {
-    
-        display: flex;
-        margin-top: 15px;
-        margin-right: 0px;
-        margin-bottom: 15px;
-        padding-right: 20px;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        align-self: center;
-        order: 0; 
-        border-style: solid;
-        border-width: 2px;
-        border-color: #F2F2F2; 
-        border-radius: 30px;
-        text-align: left; 
-    }
-
-    .filtre-box:hover {
-    transform: translateY(-5px);
-    /*transform: scale(1.1);*/
-    transform-origin: 15px; 
-    transition:  0.5s;
-    }
-    
-    
-    
-    .icon-box {
-      display: flex;
-      width: 70px;
-      height: 60px;
-      justify-content: center;
-      align-items: center;
+      border-width: 2px;
+      border-color: #F2F2F2; 
       border-radius: 30px;
-      background-color:#deebff;
-      margin-right: 15px;
-
-
-     
-    } 
-    
-    
-    .info-box-bottom {
-      display: flex;
-      margin-left: 15px;
-      justify-content: flex-start;
-      align-items: center;
-    }
-    
-    .icon-box-bottom {
-    
-      border-radius: 50%;
-      margin-left: 30px;
-      margin-right: 20px;
-    }
-
-    .fa-info:before {
-      position: relative;
-      left: 7px;
-      top: 2px;
+      text-align: left; 
   }
-    
-    .bold {
-      font-weight: bold;
-      font-size: 16px;
-    }
+
+  .filtre-box:hover {
+  -webkit-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+          transform: translateY(-5px);
+  /*transform: scale(1.1);*/
+  -webkit-transform-origin: 15px;
+      -ms-transform-origin: 15px;
+          transform-origin: 15px; 
+  -webkit-transition:  0.5s; 
+  -o-transition:  0.5s; 
+  transition:  0.5s;
+  }
+  
+  
+  
+  .icon-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70px;
+    height: 60px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 30px;
+    background-color:#deebff;
+    margin-right: 15px;
+
+
+   
+  } 
+  
+  
+  .info-box-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 15px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .icon-box-bottom {
+  
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
+  .fa-info:before {
+    position: relative;
+    left: 7px;
+    top: 2px;
+}
+  
+  .bold {
+    font-weight: bold;
+    font-size: 16px;
+  }
