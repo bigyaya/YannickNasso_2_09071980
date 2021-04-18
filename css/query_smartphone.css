@@ -58,6 +58,11 @@
             flex-direction: column;overflow: hidden;
     }
 
+    .bg-image-aside {
+        width: 100%;
+        height: 240px;
+    }
+
     .rooms-box {
         width: 90%;
     height: 400px;
@@ -68,7 +73,7 @@
     }
 
     .bg-image {
-        width: 90%;
+        width: 100%;
         height: 265px;
     }
 
@@ -368,6 +373,10 @@
         height: 160px;
     }*/
 
+    .bg-image-aside {
+        height: 160px;
+    }
+
     .bg-image-resize-1 {
         width: 100%;
         height: 160px;
@@ -445,7 +454,7 @@
     }
     .btm-image-big {
         width: 100%;
-        height: 120px;
+        height: 160px;
         background-position: 50% 10%;
     }
     .small-cards-container {
@@ -459,7 +468,7 @@
     }
     .btm-image-small{
         width: 100%;
-        height: 120px;
+        height: 160px;
         background-position: 50% 40%;
     }
 

@@ -606,11 +606,8 @@ p {
 }
 
 .bg-image {
-  width: 87%;
-  height: 165px;
-  margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 10px;
+  width: 100%;
+  height: 190px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   /* background-image: url(../ressource/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg); */
@@ -753,6 +750,10 @@ p {
   margin: 18px 0;
 }
 
+.bg-image-aside {
+  height: 195px;
+}
+
 .block-right {
   margin:  0 0;
   width: 50%;
@@ -836,10 +837,10 @@ p {
 
 .btm-image-big {
   width: 100%;
-  height: 370px;
-  padding-bottom: 40px;
+  height: 390px;
+  padding: 0px;
   border-radius: 20px 20px 0px 0px;
-  background-image: url("../ressource/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  /*background-image: url("../ressource/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");*/
   background-size: cover;
   background-position: 55% 50%;
   
@@ -886,12 +887,14 @@ p {
   transition:  0.5s;
 }
 
+
+
 .btm-image-small {
   width: 100%;
-  height: 100px;
-  padding-bottom: 40px;
+  height: 150px;
+  padding: 0px;
   border-radius: 20px 20px 0px 0px;
-  background-image: url("../ressource/images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+ /* background-image: url("../ressource/images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");*/
   background-size: cover;
   background-position: 55% 40%;
 }
