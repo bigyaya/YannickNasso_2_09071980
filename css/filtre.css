@@ -262,11 +262,44 @@ section {
     border-radius: 30px;
     background-color:#deebff;
     margin-right: 15px;
-
-
-   
   } 
+
+  .fa-money-bill-wave-alt {
+    font-size: 30px; 
+    color: #0065FC; 
+    background-color: #DEEBFF;
+  }
+
+  .fa-child {
+    font-size: 30px; 
+    color: #0065FC; 
+    background-color: #DEEBFF;
+  }
+
+  .fa-heart {
+    font-size: 30px; 
+    color: #0065FC; 
+    background-color: #DEEBFF;
+  }
+
+  .fa-dog {
+    font-size: 30px; 
+    color: #0065FC; 
+    background-color: #DEEBFF;
+  }
   
+  .fa-info {
+    font-size: 15px; 
+    color: #0065FC; 
+    border: solid #dddbdb ; 
+    border-radius: 50%; 
+    width: 20px; 
+    height: 20px;
+  }
+
+  .fa-map-marker-alt {
+    font-size: 30px;
+  }
   
   .info-box-bottom {
     display: -webkit-box;

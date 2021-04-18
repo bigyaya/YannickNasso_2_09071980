@@ -292,6 +292,9 @@
     }
 
     .query-button {
+        font-size: 18px; 
+        color: #DEEBFF ; 
+        background-color: #0065FC;
         display: block;
         border-bottom-right-radius: 20%;
         border-top-right-radius: 20%;
