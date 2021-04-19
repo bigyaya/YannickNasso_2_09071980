@@ -5,6 +5,9 @@
 * Browsers: last 4 version
 */
 
+footer h2 {
+  margin-left: 0;
+}
 
 .footer-container {
   margin-top: 50px;
